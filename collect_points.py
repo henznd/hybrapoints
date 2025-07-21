@@ -35,7 +35,7 @@ total_points = data["totalPoints"]
 rank = data["rank"]
 
 # Timestamp actuel (UTC)
-timestamp = datetime.utcnow().isoformat()
+timestamp = datetime.utcnow().strftime("%d/%m/%Y %H:%M:%S")
 
 # Ajouter la ligne dans le Google Sheet
 worksheet.append_row([timestamp, total_points, rank])
