@@ -8,7 +8,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # Paramètres
 WALLET = "0x19bF8d22f9772b1F349a803e5B640087f3d29C2a"
 SHEET_ID = "1dqAx5719sRx_J1Ce34Of0eIXCk275wyLcJcIusIRMwg"
-SHEET_NAME = "Sheet1"
+SHEET_NAME = "Feuille 1"
 
 # Récupérer les credentials du compte de service depuis la variable d'environnement
 creds_json = os.environ.get("GOOGLE_SHEETS_CREDS")
