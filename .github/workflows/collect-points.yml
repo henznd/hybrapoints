@@ -2,7 +2,7 @@ name: Collect Hybra Points
 
 on:
   schedule:
-    - cron: '16 * * * *'  # chaque heure à la minute 16
+    - cron: '*/5 * * * *'  # toutes les 5 minutes
   workflow_dispatch:
 
 jobs:
